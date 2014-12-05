@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>final-project-temp</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+<!-- TemplateParam name="ponte-vecchio-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="florence-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="city-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="local-facts-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="travel-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="blogs-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="photo-gallery-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="vatican-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="fiesole-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="siena-banner" type="boolean" value="false" -->
+<!-- TemplateParam name="wine-taste-banner" type="boolean" value="false" -->
+</head>
+<table class="general-width">
+  <tr>
+    <td><!-- TemplateBeginIf cond="_document['ponte-vecchio-banner']" --><img src="../images/banners/ponte-vecchio_banner.jpg" width="1000" height="250" alt="ponte-vecchio" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['florence-banner']" --><img src="../images/banners/Italy_banner_3_Florence.jpg" width="1000" height="250" alt="florence-banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['vatican-banner']" --><img src="../images/banners/vatican.jpg" width="1000" height="250" alt="vatican-banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['fiesole-banner']" --><img src="../images/banners/fiesole.jpg" width="1000" height="250" alt="fiesole-banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['siena-banner']" --><img src="../images/banners/siena.jpg" width="1000" height="250" alt="siena-banner" /><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['wine-taste-banner']" --><img src="../images/banners/wine-tatsting-view.jpg" width="1000" height="250" alt="wine-taste-banner" /><!-- TemplateEndIf --></td>
+  </tr>
+  <tr>
+    <td class="primarynav"><a href="../index.html">Home </a> <a href="../the-city/index.html">The City</a> <a href="../local-facts/index.html">Local Facts</a> <a href="../travel/index.html">Travel </a> <a href="../blogs/index.html">Blogs</a> <a href="../photo-gallery/index.html">Photo Gallery</a></td>
+  </tr>
+</table>
+<table class="general-width">
+  <tr>
+    <td class="secondary-nav"><ul>
+      <!-- TemplateBeginIf cond="_document['city-submenu']" -->
+        <li>History and Location</li>
+        <li>Educational Relevance </li>
+        <li>Tourism</li>
+        <!-- TemplateEndIf -->
+    </ul>
+      <ul>
+        <!-- TemplateBeginIf cond="_document['local-facts-submenu']" -->
+        <li>Food</li>
+          <li>Shopping</li>
+          <li>Nightlife</li>
+        <!-- TemplateEndIf -->
+      </ul>
+      <ul>
+        <!-- TemplateBeginIf cond="_document['travel-submenu']" -->
+          <li>Day Trips</li>
+          <li>Extended Trips</li>
+        <!-- TemplateEndIf -->
+      </ul>
+      <ul>
+        <!-- TemplateBeginIf cond="_document['blogs-submenu']" -->
+          <li>A Personal Diary</li>
+          <li>Guest Bloggers</li>
+        <!-- TemplateEndIf -->
+      </ul>
+      <ul>
+        <!-- TemplateBeginIf cond="_document['photo-gallery-submenu']" -->
+          <li>Florence </li>
+          <li>Rome</li>
+          <li>Italian Cities</li>
+          <li>Food and Drink</li>
+        <!-- TemplateEndIf -->
+      </ul></td>
+    <td class="contentstuff"><!-- TemplateBeginEditable name="page content" -->page content<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table class="general-width">
+  <tr>
+    <td><p>Reference Links</p></td>
+  </tr>
+</table>
+
+
+
+</html>
